@@ -1,0 +1,21 @@
+{
+    "daycart-isle": {
+        "title": "Daycart Isle",
+        "images": [
+            "assets/Daycart Isle/Daycart Isle Screenshot.png",
+            "assets/Daycart Isle/Daycart Isle Screenshot2.png",
+            "assets/Daycart Isle/Daycart Isle Screenshot3.png"
+        ],
+        "description": [
+            "A small island to explore using the ability to arbitrarily scale any pickupable object.",
+            "Created over 72 hours in a team of 2 for GMTK Game Jam."
+        ],
+        "links": [
+            {
+                "icon": "fa-itch-io",
+                "tooltip": "Play on Itch.io",
+                "link": "https://code807.itch.io/daycart-isle"
+            }
+        ]
+    }
+}
