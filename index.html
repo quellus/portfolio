@@ -40,8 +40,8 @@
                     </div>
                     <div class="card-body">
                         <p>A dynamic PNGTuber software made in Godot</p> 
-                        <a type="button" data-bs-toggle="modal" data-bs-target="#gdtuberModal">
-                            <img src="assets/GDTuber Screenshot.png" class="img-fluid">
+                        <a type="button" onclick="generateModal('gdtuber')">
+                            <img src="assets/GDTuber/GDTuber Screenshot.png" class="img-fluid">
                         </a>
                     </div>  
                 </div>
@@ -118,31 +118,24 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
             <div class="modal-body">
-                <div id="daycartCarouselIndicator" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#daycartCarouselIndicator" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#daycartCarouselIndicator" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#daycartCarouselIndicator" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <div id="modalCarouselIndicator" class="carousel slide">
+                    <div id="modal-carousel-indicators" class="carousel-indicators">
+                        <button type="button" data-bs-target="#modalCarouselIndicator" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#modalCarouselIndicator" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#modalCarouselIndicator" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
                     <div id="modal-carousel" class="carousel-inner">
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#daycartCarouselIndicator" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#modalCarouselIndicator" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#daycartCarouselIndicator" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#modalCarouselIndicator" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
                 <ul id="modal-description" class="list-group list-group-flush mt-3">
-                    <li class="list-group-item">A small island to explore using the ability to arbitrarily scale any pickupable object.</li>
-                    <li class="list-group-item">Created over 72 hours in a team of 2 for GMTK Game Jam</li>
-                    <li class="list-group-item">
-                        <div id="modal-links" class="row justify-content-center">
-                            <div class="col-2"><a title="Itch" href="https://code807.itch.io/daycart-isle" target="_blank"><i class="fab fa-itch-io fa-inverse fa-2x"></i></a></div>
-                        </div>
-                    </li>
                 </ul>
             </div>
         </div>

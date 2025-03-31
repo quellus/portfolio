@@ -1,4 +1,26 @@
 {
+    "gdtuber": {
+        "title": "GDTuber",
+        "images": [
+            "assets/GDTuber/GDTuber Screenshot.png"
+        ],
+        "description": [
+            "A dynamic and open source PNGTuber software.",
+            "Developed by 11 contributors using the Godot engine."
+        ],
+        "links": [
+            {
+                "icon": "fa-github",
+                "tooltip": "Source code on GitHub",
+                "link": "https://github.com/quellus/GDTuber"
+            },
+            {
+                "icon": "fa-itch-io",
+                "tooltip": "Download on Itch.io",
+                "link": "https://code807.itch.io/gdtuber"
+            }
+        ]
+    },
     "daycart-isle": {
         "title": "Daycart Isle",
         "images": [
