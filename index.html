@@ -3,6 +3,7 @@
 <head>
   <title>Quellus Portfolio</title>
   <meta charset="utf-8">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -39,7 +40,9 @@
                     </div>
                     <div class="card-body">
                         <p>A dynamic PNGTuber software made in Godot</p> 
-                        <img src="assets/GDTuber Screenshot.png" class="img-fluid">
+                        <a type="button" onclick="generateModal('gdtuber')">
+                            <img src="assets/GDTuber/GDTuber Screenshot.png" class="img-fluid">
+                        </a>
                     </div>  
                 </div>
             </div>
@@ -51,7 +54,9 @@
                     </div>
                     <div class="card-body">
                         <p>A smart thermostat run by a Raspberry Pi and ESP8266 microcontrollers</p>
-                        <img src="assets/Thermostat Screenshot.png" class="img-fluid">
+                        <a type="button" onclick="generateModal('smart-thermostat')">
+                            <img src="assets/Thermostat/Thermostat Screenshot.png" class="img-fluid">
+                        </a>
                     </div> 
                 </div>
             </div>
@@ -63,7 +68,9 @@
                     </div>
                     <div class="card-body">
                         <p>A small game created over 72 hours in a team of 2 for GMTK Game Jam</p>
-                        <img src="assets/Daycart Isle/Daycart Isle Screenshot.png" class="img-fluid">
+                        <a type="button" onclick="generateModal('daycart-isle')">
+                            <img src="assets/Daycart Isle/Daycart Isle Screenshot.png" class="img-fluid">
+                        </a>
                     </div>  
                 </div>
             </div>
@@ -75,7 +82,9 @@
                     </div>
                     <div class="card-body">
                         <p>A small 2D RPG created in a team of 2 for Godot Wild Jam #70</p>
-                        <img src="assets/To The Lake.png" class="img-fluid">
+                        <a type="button" onclick="generateModal('to-the-lake')">
+                            <img src="assets/To The Lake/To The Lake.png" class="img-fluid">
+                        </a>
                     </div> 
                 </div>
             </div>
@@ -87,7 +96,9 @@
                     </div>
                     <div class="card-body">
                         <p>A basic tower defense game created with LibGDX</p>
-                        <img src="assets/JTD Screenshot.png" class="img-fluid">
+                        <a type="button" onclick="generateModal('java-tower-defense')">
+                            <img src="assets/JTD Screenshot.png" class="img-fluid">
+                        </a>
                     </div> 
                 </div>
             </div>
@@ -99,11 +110,44 @@
                     </div>
                     <div class="card-body">
                         <p>An ncurses-based enemy avoider game created over 24 hours for the HackCU 2019 hackathon</p>
-                        <img src="assets/Ncurses Screenshot.png" class="img-fluid">
+                        <a type="button" onclick="generateModal('ncurses-game')">
+                            <img src="assets/Ncurses Screenshot.png" class="img-fluid">
+                        </a>
                     </div> 
                 </div>
             </div>
         </div>
     </div>
+    <div class="modal fade" id="daycart-modal" tabindex="-1"  aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 id="modal-title" class="modal-title fs-5">Mystery of Daycart Isle</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            <div class="modal-body">
+                <div id="modalCarouselIndicator" class="carousel slide">
+                    <div id="modal-carousel-indicators" class="carousel-indicators">
+                        <button type="button" data-bs-target="#modalCarouselIndicator" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#modalCarouselIndicator" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#modalCarouselIndicator" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div id="modal-carousel" class="carousel-inner">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#modalCarouselIndicator" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#modalCarouselIndicator" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <ul id="modal-description" class="list-group list-group-flush mt-3">
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="js/modal-generator.js"></script>
 </html>
