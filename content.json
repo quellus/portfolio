@@ -21,6 +21,24 @@
             }
         ]
     },
+    "smart-thermostat": {
+        "title": "Smart Thermostat",
+        "images": [
+            "assets/Thermostat/Thermostat Screenshot.png"
+        ],
+        "description": [
+            "A smart thermostat run by a Raspberry Pi with ESP32 microcontrollers as wireless temperature sensors.",
+            "Remotely monitorable and controllable via a web interface.",
+            "Code structure and logic developed with Python and FastAPI."
+        ],
+        "links": [
+            {
+                "icon": "fa-github",
+                "tooltip": "Source code on GitHub",
+                "link": "https://github.com/quellus/rpi-thermostat"
+            }
+        ]
+    },
     "daycart-isle": {
         "title": "Daycart Isle",
         "images": [
@@ -37,6 +55,62 @@
                 "icon": "fa-itch-io",
                 "tooltip": "Play on Itch.io",
                 "link": "https://code807.itch.io/daycart-isle"
+            }
+        ]
+    },
+    "to-the-lake": {
+        "title": "To The Lake",
+        "images": [
+            "assets/To The Lake/To The Lake.png"
+        ],
+        "description": [
+            "A small 2D RPG game created in Godot Engine.",
+            "Developed over 8 days in a team of 2 for Godot Wild Jam #70.",
+            "All art created from scratch during the event."
+        ],
+        "links": [
+            {
+                "icon": "fa-itch-io",
+                "tooltip": "Play on Itch.io",
+                "link": "https://code807.itch.io/to-the-lake"
+            },
+            {
+                "icon": "fa-github",
+                "tooltip": "Source code on GitHub",
+                "link": "https://github.com/code807/to-the-lake/"
+            }
+        ]
+    },
+    "java-tower-defense": {
+        "title": "Tower Defense Game",
+        "images": [
+            "assets/JTD Screenshot.png"
+        ],
+        "description": [
+            "A basic tower defense game writen from scratch using the LibGDX graphics library in Java."
+        ],
+        "links": [
+            {
+                "icon": "fa-github",
+                "tooltip": "Source code on GitHub",
+                "link": "https://github.com/quellus/libdx-tower-defense"
+            }
+        ]
+    },
+    "ncurses-game": {
+        "title": "Enemy Avoider Game",
+        "images": [
+            "assets/Ncurses Screenshot.png"
+        ],
+        "description": [
+            "A basic enemy avoider game in the command line developed using Ncurses with C++.",
+            "Created over 24 hours for the HackCU 2019 hackathon in order to learn the challenges and conepts important to designing a game engine."
+        ],
+        "links": [
+            {
+                "icon": "fa-github",
+                "tooltip": "Source code on GitHub",
+                "link": "https://github.com/quellus/ncurses-game"
             }
         ]
     }
