@@ -1,8 +1,13 @@
-{
-    "gdtuber": {
+[
+    {
+        "id": "gdtuber",
         "title": "GDTuber",
+        "start_date": "2025-07",
         "images": [
             "assets/GDTuber/GDTuber Screenshot.png"
+        ],
+        "short_description": [
+            "A dynamic PNGTuber software made in Godot"
         ],
         "description": [
             "A dynamic and open source PNGTuber software.",
@@ -20,9 +25,11 @@
                 "link": "https://code807.itch.io/gdtuber"
             }
         ]
-    },
-    "smart-thermostat": {
+    },{
+        "id": "smart-thermostat",
         "title": "Smart Thermostat",
+        "start_date": "2022-07",
+        "short_description": "A smart thermostat run by a Raspberry Pi and ESP8266 microcontrollers",
         "images": [
             "assets/Thermostat/Thermostat Screenshot.png"
         ],
@@ -38,9 +45,11 @@
                 "link": "https://github.com/quellus/rpi-thermostat"
             }
         ]
-    },
-    "daycart-isle": {
+    },{
+        "id": "daycart-isle",
         "title": "Daycart Isle",
+        "end_date": "2024-08",
+        "short_description": "A small game created over 72 hours in a team of 2 for GMTK Game Jam",
         "images": [
             "assets/Daycart Isle/Daycart Isle Screenshot.png",
             "assets/Daycart Isle/Daycart Isle Screenshot2.png",
@@ -57,9 +66,11 @@
                 "link": "https://code807.itch.io/daycart-isle"
             }
         ]
-    },
-    "to-the-lake": {
+    },{
+        "id": "to-the-lake",
         "title": "To The Lake",
+        "end_date": "2024-06",
+        "short_description": "A small 2D RPG created in a team of 2 for Godot Wild Jam #70",
         "images": [
             "assets/To The Lake/To The Lake.png"
         ],
@@ -80,9 +91,12 @@
                 "link": "https://github.com/code807/to-the-lake/"
             }
         ]
-    },
-    "java-tower-defense": {
+    },{
+        "id": "java-tower-defense",
         "title": "Tower Defense Game",
+        "start_date": "2020-03",
+        "end_date": "2021-02",
+        "short_description": "A basic tower defense game created with LibGDX",
         "images": [
             "assets/JTD Screenshot.png"
         ],
@@ -96,9 +110,11 @@
                 "link": "https://github.com/quellus/libdx-tower-defense"
             }
         ]
-    },
-    "ncurses-game": {
+    },{
+        "id": "ncurses-game",
         "title": "Enemy Avoider Game",
+        "end_date": "2020-02",
+        "short_description": "An ncurses-based enemy avoider game created over 24 hours for the HackCU 2019 hackathon",
         "images": [
             "assets/Ncurses Screenshot.png"
         ],
@@ -114,4 +130,4 @@
             }
         ]
     }
-}
+]
