@@ -8,15 +8,12 @@ var contentDict = {};
 fetchContent()
 
 function fetchContent() {
-    console.log("Fetching content")
     fetch('content.json')
     .then(response => response.json())
     .then(data => {
-        console.log(data)
         data.forEach(item => {
             contentDict[item["id"]] = item
         })
-        console.log(contentDict)
     })
     .catch (error => {
         console.error("Error fetching content:", error);
@@ -26,7 +23,6 @@ function fetchContent() {
 
 function generateModal(id) {
     let content = contentDict[id] 
-    console.log(content)
     modalTitle.innerHTML = content["title"]
     modalCarousel.innerHTML = ""
     content["images"].forEach((imagePath, index) => {
