@@ -31,7 +31,11 @@
         "start_date": "2022-07",
         "short_description": "A smart thermostat run by a Raspberry Pi and ESP8266 microcontrollers",
         "images": [
-            "assets/Thermostat/Thermostat Screenshot.png"
+            "assets/Thermostat/Thermostat Screenshot.png",
+            "assets/Thermostat/Thermostat Screenshot2.png",
+            "assets/Thermostat/Thermostat Screenshot3.JPEG",
+            "assets/Thermostat/Thermostat Screenshot4.JPEG",
+            "assets/Thermostat/Thermostat Screenshot5.JPEG"
         ],
         "description": [
             "A smart thermostat run by a Raspberry Pi with ESP32 microcontrollers as wireless temperature sensors.",
