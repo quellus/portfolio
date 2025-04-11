@@ -11,7 +11,7 @@ function generateCards() {
             let card = `
             <div class="col-md-6 col-lg-4 mb-5">
                 <a type="button" onclick="generateModal('${[item["id"]]}')">
-                    <div class="card">
+                    <div class="card hover-card">
                         <div class="card-header">
                             <h3>${item["title"]}</h3>
                         </div>
