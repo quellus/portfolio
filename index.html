@@ -31,91 +31,7 @@
         </div>
     </div>
     <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>GDTuber</h3>
-                        <p>July 2025 - Present</p>
-                    </div>
-                    <div class="card-body">
-                        <p>A dynamic PNGTuber software made in Godot</p> 
-                        <a type="button" onclick="generateModal('gdtuber')">
-                            <img src="assets/GDTuber/GDTuber Screenshot.png" class="img-fluid">
-                        </a>
-                    </div>  
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>Smart Thermostat</h3>
-                        <p>July 2022 - Present</p>
-                    </div>
-                    <div class="card-body">
-                        <p>A smart thermostat run by a Raspberry Pi and ESP8266 microcontrollers</p>
-                        <a type="button" onclick="generateModal('smart-thermostat')">
-                            <img src="assets/Thermostat/Thermostat Screenshot.png" class="img-fluid">
-                        </a>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>Mystery of Daycart Isle</h3>
-                        <p>August 2024</p>
-                    </div>
-                    <div class="card-body">
-                        <p>A small game created over 72 hours in a team of 2 for GMTK Game Jam</p>
-                        <a type="button" onclick="generateModal('daycart-isle')">
-                            <img src="assets/Daycart Isle/Daycart Isle Screenshot.png" class="img-fluid">
-                        </a>
-                    </div>  
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>To The Lake</h3>
-                        <p>June 2024</p>
-                    </div>
-                    <div class="card-body">
-                        <p>A small 2D RPG created in a team of 2 for Godot Wild Jam #70</p>
-                        <a type="button" onclick="generateModal('to-the-lake')">
-                            <img src="assets/To The Lake/To The Lake.png" class="img-fluid">
-                        </a>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>Tower Defense Game</h3>
-                        <p>March 2020 - February 2021</p>
-                    </div>
-                    <div class="card-body">
-                        <p>A basic tower defense game created with LibGDX</p>
-                        <a type="button" onclick="generateModal('java-tower-defense')">
-                            <img src="assets/JTD Screenshot.png" class="img-fluid">
-                        </a>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>Enemy Avoider Game</h3>
-                        <p>February 2020</p>
-                    </div>
-                    <div class="card-body">
-                        <p>An ncurses-based enemy avoider game created over 24 hours for the HackCU 2019 hackathon</p>
-                        <a type="button" onclick="generateModal('ncurses-game')">
-                            <img src="assets/Ncurses Screenshot.png" class="img-fluid">
-                        </a>
-                    </div> 
-                </div>
-            </div>
+        <div id="card-container" class="row">
         </div>
     </div>
     <div class="modal fade" id="daycart-modal" tabindex="-1"  aria-hidden="true">
@@ -150,4 +66,5 @@
     </div>
 </body>
 <script src="js/modal-generator.js"></script>
+<script src="js/card-generator.js"></script>
 </html>
