@@ -50,6 +50,28 @@
             }
         ]
     },{
+        "id": "kitchen-shuffle",
+        "title": "Kitchen Shuffle",
+        "end_date": "2025-04",
+        "short_description": "A chaotic card-based cooking created for Godot Wild Jam #80",
+        "images": [
+            "assets/Kitchen Shuffle/Kitchen Shuffle.png",
+            "assets/Kitchen Shuffle/Kitchen Shuffle1.png",
+            "assets/Kitchen Shuffle/Kitchen Shuffle2.png"
+        ],
+        "description": [
+            "You are the head chef at Glopmorn P. Peperoni's Kitchen. Customers are piling in and it's your job to serve them as quickly as possible. Drag cards around to cook their orders and serve them.",
+            "Created over 8 days in a team of 2 for Godot Wild Jam #80.",
+            "All art, design, and code created from scratch during the event."
+        ],
+        "links": [
+            {
+                "icon": "fa-itch-io",
+                "tooltip": "Play on Itch.io",
+                "link": "https://code807.itch.io/kitchen-shuffle"
+            }
+        ]
+    },{
         "id": "daycart-isle",
         "title": "Daycart Isle",
         "end_date": "2024-08",
@@ -81,7 +103,7 @@
         "description": [
             "A small 2D RPG game created in Godot Engine.",
             "Developed over 8 days in a team of 2 for Godot Wild Jam #70.",
-            "All art created from scratch during the event."
+            "All art, design, and code created from scratch during the event."
         ],
         "links": [
             {
